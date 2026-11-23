@@ -3,46 +3,45 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
-<meta name="googlebot" content="noindex,nofollow">
+<meta name="robots" content="noindex,nofollow">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="CPMAI題庫">
+<meta name="apple-mobile-web-app-title" content="CPMAI小助理">
 <meta name="theme-color" content="#1D3557">
 <link rel="apple-touch-icon" href="data:image/png;base64,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">
 <link rel="icon" href="data:image/png;base64,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">
-<title>CPMAI 題庫練習</title>
+<title>CPMAI 備考小助理</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#FFFFFF; --surface:#F4F6F9; --ink:#1B2433; --muted:#5D6A7C; --en:#4A5A70; --line:#DDE3EB;
-  --navy:#1D3557; --navy-2:#2A4A73; --on-navy:#FFFFFF; --on-navy-muted:#B9C6D8;
+  --bg:#FBFAF7; --card:#FFFFFF; --surface:#F1EEE7; --ink:#24303F; --muted:#6B7684; --en:#5C6878; --line:#E5E1D8;
+  --navy:#24476B; --navy-2:#2F5680; --on-navy:#FFFFFF; --on-navy-muted:#B9C6D8;
   --gold:#A87B22; --gold-soft:#F7EFDD; --ok:#2C7A67; --ok-soft:#E2F1EC; --bad:#B0443A; --bad-soft:#F9E5E2;
   --warn:#9A6A12; --warn-soft:#FBF0D9; --sel:#2A4A73; --sel-soft:#E6ECF4; --shadow:rgba(29,53,87,.10);
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --bg:#11161E; --surface:#19202B; --ink:#E7ECF3; --muted:#9AA7B8; --en:#AEBBCC; --line:#2B3442;
+    --bg:#11161E; --card:#161C26; --surface:#19202B; --ink:#E7ECF3; --muted:#9AA7B8; --en:#AEBBCC; --line:#2B3442;
     --navy:#1A2F4D; --navy-2:#27446B; --on-navy:#FFFFFF; --on-navy-muted:#A9B8CC;
     --gold:#D8AE5A; --gold-soft:#2C2515; --ok:#5DBBA2; --ok-soft:#15302A; --bad:#E58074; --bad-soft:#3A1D1A;
     --warn:#E2B55C; --warn-soft:#33280F; --sel:#8FB0DB; --sel-soft:#1E2B3D; --shadow:rgba(0,0,0,.35); color-scheme:dark;
   }
 }
 :root[data-theme="dark"]{
-  --bg:#11161E; --surface:#19202B; --ink:#E7ECF3; --muted:#9AA7B8; --en:#AEBBCC; --line:#2B3442;
+  --bg:#11161E; --card:#161C26; --surface:#19202B; --ink:#E7ECF3; --muted:#9AA7B8; --en:#AEBBCC; --line:#2B3442;
   --navy:#1A2F4D; --navy-2:#27446B; --on-navy:#FFFFFF; --on-navy-muted:#A9B8CC;
   --gold:#D8AE5A; --gold-soft:#2C2515; --ok:#5DBBA2; --ok-soft:#15302A; --bad:#E58074; --bad-soft:#3A1D1A;
   --warn:#E2B55C; --warn-soft:#33280F; --sel:#8FB0DB; --sel-soft:#1E2B3D; --shadow:rgba(0,0,0,.35); color-scheme:dark;
 }
 :root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);}
-html{font-size:18px;scroll-padding-top:env(safe-area-inset-top,0px);background:var(--bg);-webkit-text-size-adjust:100%}
-html[data-size="xl"]{font-size:21px}
+html{font-size:20px;scroll-padding-top:env(safe-area-inset-top,0px);background:var(--bg);-webkit-text-size-adjust:100%}
+html[data-size="xl"]{font-size:23px}
 *,*::before,*::after{box-sizing:inherit}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;font-size:1rem;line-height:1.65}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;font-size:1rem;line-height:1.7}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--navy);z-index:30}
 body.lock{overflow:hidden}
 button,input{font:inherit;color:inherit}
@@ -70,43 +69,43 @@ button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid
 @keyframes sp{to{transform:rotate(360deg)}}
 
 /* 首頁頂部 */
-.top{background:var(--navy);color:var(--on-navy);padding:16px 20px 44px}
+.top{background:var(--navy);color:var(--on-navy);padding:22px 22px 52px}
 .top.noq{padding-bottom:20px}
 .top-row{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
 .hi{font-size:.85rem;color:var(--on-navy-muted);margin:0}
-.title{font-family:"Noto Serif TC",serif;font-size:1.45rem;margin:2px 0 0;line-height:1.3}
+.title{font-family:"Noto Serif TC",serif;font-size:1.4rem;margin:4px 0 0;line-height:1.3}
 .count{position:relative;text-align:right;flex:none;background:var(--navy-2);border-radius:12px;padding:8px 14px}
 .count b{display:block;font-family:"Noto Serif TC",serif;font-size:1.35rem;line-height:1.2}
 .count span{font-size:.75rem;color:var(--on-navy-muted)}
 .count input{position:absolute;inset:0;opacity:0;width:100%;height:100%;cursor:pointer}
-.quote{margin:-30px 14px 0;background:var(--bg);border:1px solid var(--line);border-radius:16px;padding:14px 18px 16px;position:relative;box-shadow:0 6px 18px var(--shadow)}
+.quote{margin:-34px 16px 0;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:16px 20px 18px;position:relative;box-shadow:0 6px 18px var(--shadow)}
 .quote .pill{display:inline-flex;align-items:center;gap:6px;font-size:.75rem;color:var(--gold);background:var(--gold-soft);border-radius:999px;padding:2px 11px 2px 9px;margin-bottom:8px}
 .quote .pill svg{width:1rem;height:1rem}
 .quote p{margin:0;font-family:"Noto Serif TC","Songti TC",serif;font-size:1.05rem;line-height:1.7}
 .quote p.en{font-family:"Noto Serif TC",Georgia,"Times New Roman",serif;font-style:italic;font-size:.84rem;line-height:1.5;color:var(--muted);margin-top:2px}
 
 /* 區塊 */
-.sec{padding:24px 16px 4px}
-.sec-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px}
-.sec h3{font-size:.85rem;color:var(--muted);font-weight:500;margin:0}
+.sec{padding:30px 18px 6px}
+.sec-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:14px;flex-wrap:wrap}
+.sec h3{font-size:.8rem;color:var(--muted);font-weight:500;margin:0 0 4px}
 .seg{display:inline-flex;background:var(--surface);border-radius:999px;padding:3px}
 .seg button{border:0;background:none;border-radius:999px;padding:5px 12px;font-size:.82rem;color:var(--muted)}
 .seg button[aria-pressed="true"]{background:var(--bg);color:var(--ink);font-weight:700;box-shadow:0 1px 3px var(--shadow)}
-.allrow{display:flex;align-items:center;justify-content:space-between;width:100%;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:14px;padding:12px 14px;margin-bottom:10px}
+.allrow{display:flex;align-items:center;justify-content:space-between;width:100%;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:18px;padding:16px 18px;margin-bottom:12px}
 .allrow b{font-size:1.02rem}
 .allrow span{font-size:.82rem;color:var(--muted)}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.card{display:flex;flex-direction:column;align-items:flex-start;text-align:left;border:1px solid var(--line);background:var(--bg);border-radius:14px;padding:12px 12px 11px;min-height:5.4rem}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.card{display:grid;grid-template-columns:1fr auto;column-gap:14px;row-gap:2px;align-items:center;text-align:left;border:1px solid var(--line);background:var(--card);border-radius:18px;padding:16px 18px}
 .card:disabled{opacity:.5;cursor:default}
-.card .cn{font-weight:700;font-size:1rem;line-height:1.35}
-.card .cc{font-size:.78rem;color:var(--muted)}
-.card .bar{width:100%;margin-top:auto}
-.card .cr{font-size:.76rem;color:var(--muted);margin-top:4px}
+.card .cn{grid-column:1;font-weight:700;font-size:1rem;line-height:1.4}
+.card .cc{grid-column:1;font-size:.75rem;color:var(--muted)}
+.card .bar{grid-column:1/-1;width:100%;margin-top:10px}
+.card .cr{grid-column:2;grid-row:1/3;font-size:.8rem;font-weight:700;color:var(--muted);white-space:nowrap}
 .bar{display:block;height:5px;border-radius:3px;background:var(--line);overflow:hidden}
 .bar i{display:block;height:100%;background:var(--ok);border-radius:3px}
 .bar i.low{background:var(--warn)}
 .bar i.few{background:var(--muted);opacity:.5}
-.row{display:flex;align-items:center;gap:14px;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);padding:15px 4px}
+.row{display:flex;align-items:center;gap:14px;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);padding:18px 4px}
 .row:last-child{border-bottom:0}
 .row .ic{flex:none;width:2.4rem;height:2.4rem;border-radius:12px;background:var(--surface);display:flex;align-items:center;justify-content:center;color:var(--navy-2)}
 :root[data-theme="dark"] .row .ic{color:var(--sel)}
@@ -144,19 +143,14 @@ button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid
 .flag{margin-left:auto;display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:4px 12px;font-size:.82rem;color:var(--muted)}
 .flag svg{width:1rem;height:1rem}
 .flag[aria-pressed="true"]{border-color:var(--gold);background:var(--gold-soft);color:var(--gold);font-weight:700}
-.memb{margin-left:auto;display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:4px 12px;font-size:.82rem;color:var(--muted)}
-.memb svg{width:1rem;height:1rem}
-.memb[aria-pressed="true"]{border-color:var(--gold);background:var(--gold-soft);color:var(--gold);font-weight:700}
-.memb[aria-pressed="true"] svg{fill:currentColor}
-.tag.multi{background:var(--sel-soft);color:var(--sel);font-weight:700}
 .q{margin:0 0 16px}
-.q .zh{display:block;font-family:"Noto Serif TC","Songti TC",serif;font-size:1.15rem;line-height:1.75;font-weight:600}
-.q .en{display:block;margin-top:6px;font-size:.92rem;line-height:1.6;color:var(--en)}
-.opts{display:flex;flex-direction:column;gap:10px}
-.opt{display:flex;gap:12px;text-align:left;width:100%;padding:13px 14px;border:1px solid var(--line);border-radius:12px;background:var(--bg);transition:background .15s,border-color .15s}
+.q .zh{display:block;font-family:"Noto Serif TC","Songti TC",serif;font-size:1.08rem;line-height:1.85;font-weight:600}
+.q .en{display:block;margin-top:8px;font-size:.82rem;line-height:1.65;color:var(--en)}
+.opts{display:flex;flex-direction:column;gap:12px}
+.opt{display:flex;gap:14px;text-align:left;width:100%;padding:16px;border:1px solid var(--line);border-radius:16px;background:var(--card);transition:background .15s,border-color .15s}
 .opt .k{flex:none;width:1.6rem;height:1.6rem;border-radius:50%;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:.85rem;font-weight:700;color:var(--muted);margin-top:.1rem}
 .opt .zh{display:block;line-height:1.55}
-.opt .en{display:block;font-size:.88rem;line-height:1.5;color:var(--en);margin-top:3px}
+.opt .en{display:block;font-size:.78rem;line-height:1.55;color:var(--en);margin-top:4px}
 .opt:disabled{cursor:default}
 .opt.sel{border-color:var(--sel);background:var(--sel-soft)}
 .opt.sel .k{background:var(--sel);border-color:var(--sel);color:var(--bg)}
@@ -164,18 +158,21 @@ button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid
 .opt.ok .k{background:var(--ok);border-color:var(--ok);color:var(--bg)}
 .opt.bad{border-color:var(--bad);background:var(--bad-soft)}
 .opt.bad .k{background:var(--bad);border-color:var(--bad);color:var(--bg)}
+.pickn{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:-4px 0 14px;padding:10px 14px;border-radius:12px;background:var(--sel-soft);font-size:.85rem}
+.pickn .cnt{color:var(--muted);font-size:.8rem}
+.tag.multi{background:var(--gold-soft);color:var(--gold);font-weight:700}
 .unsure{display:flex;align-items:center;gap:10px;width:100%;margin-top:16px;padding:11px 14px;border:1px dashed var(--line);border-radius:12px;background:var(--bg);text-align:left;font-size:.92rem;color:var(--muted)}
 .unsure .box{flex:none;width:1.2rem;height:1.2rem;border:2px solid var(--line);border-radius:5px;display:flex;align-items:center;justify-content:center}
 .unsure[aria-pressed="true"]{border-style:solid;border-color:var(--gold);background:var(--gold-soft);color:var(--ink)}
 .unsure[aria-pressed="true"] .box{background:var(--gold);border-color:var(--gold)}
 .unsure[aria-pressed="true"] .box::after{content:"";width:.35rem;height:.65rem;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg) translate(-1px,-1px)}
 .unsure small{display:block;font-size:.78rem;color:var(--muted)}
-.explain{margin-top:16px;padding:16px;border-radius:12px;background:var(--surface);animation:op .25s ease-out}
+.explain{margin-top:18px;padding:18px;border-radius:16px;background:var(--surface);animation:op .25s ease-out}
 .explain .v{font-weight:700;font-size:1.05rem;margin-bottom:6px}
 .v.ok{color:var(--ok)} .v.bad{color:var(--bad)}
 .explain .concept{margin:0 0 12px}
 .why{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
-.why li{display:flex;gap:10px;padding:10px 0;border-bottom:1px solid var(--line);font-size:.95rem}
+.why li{display:flex;gap:10px;padding:12px 0;border-bottom:1px solid var(--line);font-size:.9rem}
 .why li:last-child{border-bottom:0;padding-bottom:0}
 .why b{flex:none;width:1.4rem;color:var(--muted)}
 .why li.right b{color:var(--ok)}
@@ -193,10 +190,10 @@ button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid
 .timer.low{color:#F6B9B0}
 .prog{height:3px;background:rgba(255,255,255,.15);border-radius:2px;margin-top:10px;overflow:hidden}
 .prog i{display:block;height:100%;background:var(--gold);transition:width .25s}
-.qbody{padding:20px 18px 150px}
+.qbody{padding:24px 20px 160px}
 .dock{position:fixed;left:0;right:0;bottom:0;background:var(--bg);border-top:1px solid var(--line);padding:12px 16px calc(12px + env(safe-area-inset-bottom,0px));z-index:6}
 .dock .wrap{display:flex;gap:10px}
-.btn{flex:1;padding:14px;border-radius:12px;border:0;background:var(--navy);color:#fff;font-weight:700;font-size:1.05rem}
+.btn{flex:1;padding:15px;border-radius:14px;border:0;background:var(--navy);color:#fff;font-weight:700;font-size:1.05rem}
 .btn.ghost{flex:0 0 auto;background:var(--surface);color:var(--ink);padding:14px 18px}
 .btn:disabled{opacity:.4;cursor:default}
 
@@ -270,6 +267,51 @@ details .explain{margin-top:10px;animation:none}
 .mrow .sp{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .empty{padding:28px 10px;text-align:center;color:var(--muted)}
 .toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:999px;font-size:.9rem;z-index:60}
+/* ===== 學習講義 ===== */
+.nlist{padding:18px 18px 44px}
+.nprog{background:var(--surface);border-radius:14px;padding:14px 16px;margin-bottom:14px}
+.nprog b{display:block;font-size:1.05rem;margin-bottom:8px}
+.nprog .bar{display:block}
+.nitem{display:flex;align-items:center;gap:14px;width:100%;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;margin-bottom:10px;color:var(--ink)}
+.nitem .nch{flex:none;min-width:3.6rem;font-size:.75rem;font-weight:700;color:var(--gold)}
+.nitem .nt{flex:1;min-width:0;font-weight:700;line-height:1.45}
+.nitem .nt small{display:block;font-weight:400;font-size:.75rem;color:var(--muted)}
+.nitem .ck{flex:none;width:1.5rem;height:1.5rem;border-radius:50%;border:2px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:.8rem;color:#fff}
+.nitem.read .ck{background:var(--ok);border-color:var(--ok)}
+.nitem.cur{border-color:var(--navy-2);box-shadow:0 0 0 1px var(--navy-2) inset}
+.nbody{padding:22px 20px 150px}
+.nbody .nh{font-size:.8rem;font-weight:700;color:var(--gold);margin:0}
+.nbody h1{font-family:"Noto Serif TC",serif;font-size:1.45rem;line-height:1.4;margin:2px 0 18px}
+.nbody h2{font-size:1.08rem;margin:30px 0 8px;padding-left:10px;border-left:4px solid var(--gold);line-height:1.45}
+.nbody p{margin:0 0 12px}
+.nbody ul,.nbody ol{margin:0 0 14px;padding-left:1.3em}
+.nbody li{margin-bottom:6px}
+.nbody b{color:var(--navy-2)}
+:root[data-theme="dark"] .nbody b{color:var(--sel)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .nbody b{color:var(--sel)}}
+.nbody .tip{background:var(--gold-soft);border-radius:12px;padding:12px 14px;margin:6px 0 16px;font-size:.92rem}
+.nbody .tip b{color:var(--gold)}
+.tbl{overflow-x:auto;margin:4px 0 16px;border:1px solid var(--line);border-radius:12px;-webkit-overflow-scrolling:touch}
+.tbl table{border-collapse:collapse;width:100%;font-size:.8rem;line-height:1.55}
+.tbl th,.tbl td{padding:8px 10px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+.tbl tr:last-child td{border-bottom:0}
+.tbl th{background:var(--surface);font-weight:700;white-space:nowrap}
+.tbl td:first-child{font-weight:500}
+.nend{margin-top:28px;border-top:1px solid var(--line);padding-top:18px}
+.readbtn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:13px;border-radius:14px;border:1px dashed var(--line);background:var(--card);color:var(--ink);font-weight:700}
+.readbtn[aria-pressed="true"]{border-style:solid;border-color:var(--ok);background:var(--ok-soft);color:var(--ok)}
+.tbl td:first-child{font-weight:500}
+@media (max-width:560px){
+  .tbl{border:0;overflow:visible}
+  .tbl table,.tbl tbody,.tbl tr,.tbl td{display:block;width:auto}
+  .tbl thead{display:none}
+  .tbl table{font-size:.88rem}
+  .tbl tr{border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-bottom:8px;background:var(--card)}
+  .tbl td{border:0;padding:2px 0}
+  .tbl td:first-child{font-weight:700;font-size:.95rem;margin-bottom:2px}
+  .tbl td:not(:first-child)::before{content:attr(data-l)"：";color:var(--muted);font-size:.8rem}
+}
+.dock .btn.nav{flex:0 0 auto;min-width:3.2rem;padding:14px 14px}
 </style>
 </head>
 <body>
@@ -307,21 +349,13 @@ const ICON={
   wrong:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>',
   ana:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/><path d="M22 20H2"/></svg>',
   sun:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',
-  star:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3 6.4 20.2l1.1-6.2L3 9.6l6.2-.9z"/></svg>',
+  book:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7z"/></svg>',
   flag:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4"/><path d="M5 4h11l-2 4 2 4H5"/></svg>'
 };
 
 /* ===== 狀態 ===== */
 let TOKEN=store.get('cpmai.token',null), NAME=store.get('cpmai.name','');
-let Q=[], LOG=[], MOCKS=[], QUOTE='', H={}, S=null, tick=null, flushing=false, MEM=new Set();
-const bits=m=>{let n=0;for(;m;m>>=1)n+=m&1;return n};
-const lettersOf=m=>L.split('').filter((c,i)=>(m>>i)&1).join('');
-const isRight=(q,i)=>q.m?!!((q.a>>i)&1):i===q.a;
-function ansText(q,p,withText){
-  if(p==null||p<0||(q.m&&!p))return '未作答';
-  if(q.m)return lettersOf(p);
-  return L[p]+(withText&&q.o[p]?'　'+esc(q.o[p][0]):'');
-}
+let Q=[], NOTES=[], LOG=[], MOCKS=[], QUOTE='', H={}, S=null, tick=null, flushing=false;
 let CFG={threshold:.7,mockCount:10,recentN:20,minN:5};
 
 function applySize(){document.documentElement.dataset.size=store.get('cpmai.size','l')}
@@ -341,9 +375,10 @@ function notice(title,msg,retry){
 }
 function handleErr(res){
   if(res.error==='auth'){clearLocal();return login('登入已失效，請重新登入。');}
+  if(res.error==='mustChange')return changePw(true,'');
   notice('發生錯誤',esc(res.msg||'請稍後再試一次。'),true);
 }
-function clearLocal(){TOKEN=null;store.del('cpmai.token');Q=[];LOG=[];MOCKS=[];H={};MEM=new Set();}
+function clearLocal(){TOKEN=null;store.del('cpmai.token');Q=[];LOG=[];MOCKS=[];H={};}
 
 /* ===== 密碼眼睛 ===== */
 const EYE_ON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>';
@@ -354,7 +389,7 @@ function bindEyes(){app.querySelectorAll('.eye').forEach(b=>{const inp=b.previou
 /* ===== 登入 ===== */
 function login(msg){
   app.innerHTML=`<div class="panel"><div class="panel-box">
-    <h1>CPMAI 題庫練習</h1><p>個人備考練習</p>
+    <h1>CPMAI 備考小助理</h1><p>個人備考練習</p>
     <label for="acc">帳號</label><input id="acc" autocomplete="username" autocapitalize="off" value="${esc(store.get('cpmai.acc',''))}">
     <label for="pw">密碼</label><div class="pwf"><input id="pw" type="password" autocomplete="current-password" enterkeyhint="go"><button type="button" class="eye" aria-label="顯示密碼"></button></div>
     <button class="go" id="go">登入</button><div class="err" id="err">${msg||''}</div></div></div>`;
@@ -367,9 +402,9 @@ function login(msg){
       const res=await api('login',{account:acc.value.trim(),password:pw.value});
       if(res.ok){
         TOKEN=res.token;NAME=res.name;store.set('cpmai.token',TOKEN);store.set('cpmai.name',NAME);store.set('cpmai.acc',acc.value.trim());
-        return load();
+        return res.mustChange?changePw(true,pw.value):load();
       }
-      err.textContent={bad:'帳號或密碼不正確。',locked:'輸入錯誤次數過多，請 15 分鐘後再試。',inactive:'帳號已停用或到期，請到試算表的「學員」工作表確認。'}[res.error]||'登入失敗，請稍後再試。';
+      err.textContent={bad:'帳號或密碼不正確。',locked:'輸入錯誤次數過多，請 15 分鐘後再試。',inactive:'帳號已到期或停用，請到試算表的「學員」工作表延長到期日或重新勾選啟用。'}[res.error]||'登入失敗，請稍後再試。';
     }catch(e){err.textContent='無法連線，請確認網路後再試。'}
     go.disabled=false;go.textContent='登入';
   };
@@ -378,17 +413,46 @@ function login(msg){
   (acc.value?pw:acc).focus();
 }
 
+/* ===== 變更密碼 ===== */
+function changePw(forced,oldKnown){
+  const needOld=!oldKnown;
+  app.innerHTML=`<div class="panel"><div class="panel-box">
+    <h1>${forced?'設定你的密碼':'變更密碼'}</h1><p>${forced?'第一次登入請改成你自己的密碼，之後就用新密碼登入。':'新密碼至少 6 碼。'}</p>
+    ${needOld?`<label for="op">${forced?'初始密碼':'目前密碼'}</label><div class="pwf"><input id="op" type="password" autocomplete="current-password"><button type="button" class="eye" aria-label="顯示密碼"></button></div>`:''}
+    <label for="np">新密碼（至少 6 碼）</label><div class="pwf"><input id="np" type="password" autocomplete="new-password"><button type="button" class="eye" aria-label="顯示密碼"></button></div>
+    <label for="np2">再輸入一次新密碼</label><div class="pwf"><input id="np2" type="password" autocomplete="new-password" enterkeyhint="done"><button type="button" class="eye" aria-label="顯示密碼"></button></div>
+    <button class="go" id="go">儲存新密碼</button>${forced?'':'<button class="alt" id="cancel">取消</button>'}
+    <div class="err" id="err"></div></div></div>`;
+  bindEyes();
+  const err=$('err'), go=$('go');
+  const submit=async()=>{
+    const op=needOld?$('op').value:oldKnown, np=$('np').value, np2=$('np2').value;
+    if(np.length<6){err.textContent='新密碼至少要 6 碼。';return}
+    if(np!==np2){err.textContent='兩次輸入的新密碼不一樣。';return}
+    if(np===op){err.textContent='新密碼不能和原本的密碼相同。';return}
+    go.disabled=true;go.textContent='儲存中';err.textContent='';
+    try{
+      const res=await api('change',{oldPassword:op,newPassword:np});
+      if(res.ok)return forced?load():(home(),toast('密碼已變更'));
+      if(res.error==='auth'){clearLocal();return login('登入已失效，請重新登入。')}
+      err.textContent={bad:(forced?'初始密碼':'目前密碼')+'不正確。',weak:'新密碼至少 6 碼，且不能與原本的密碼相同。'}[res.error]||'儲存失敗，請稍後再試。';
+    }catch(e){err.textContent='無法連線，請確認網路後再試。'}
+    go.disabled=false;go.textContent='儲存新密碼';
+  };
+  go.onclick=submit; $('np2').onkeydown=e=>{if(e.key==='Enter')submit()};
+  if($('cancel'))$('cancel').onclick=()=>home();
+}
+
 /* ===== 載入題庫與紀錄 ===== */
 async function load(){
   loading('正在載入題庫');
   try{
     const res=await api('data');
     if(!res.ok)return handleErr(res);
-    Q=res.questions||[]; QUOTE=res.quote||'';
+    Q=res.questions||[]; NOTES=res.notes||[]; QUOTE=res.quote||'';
     if(res.cfg)CFG=Object.assign(CFG,res.cfg);
-    LOG=(res.log||[]).map(x=>({t:x[0],id:x[1],pick:x[2],ok:!!x[3],u:!!x[4],sid:x[5]||''}));
+    LOG=(res.log||[]).map(x=>({t:x[0],id:x[1],pick:pickOf(x[1],x[2]),ok:!!x[3],u:!!x[4],sid:x[5]||''}));
     MOCKS=(res.mocks||[]).map(x=>({t:x[0],n:x[1],ok:x[2],scope:x[3],sid:x[4]}));
-    MEM=new Set(res.mem||[]);
     if(res.name){NAME=res.name;store.set('cpmai.name',NAME)}
     // 尚未上傳的紀錄先併入，並放行上次中斷前保留的紀錄
     const qu=store.get('cpmai.queue',[]);
@@ -401,6 +465,22 @@ async function load(){
 }
 const qById=id=>Q.find(q=>q.id===id);
 function okOf(id,pick){const q=qById(id);return !!q&&pick===q.a}
+const isMulti=q=>q&&q.m>1;
+// 後端回傳的作答（字母）轉成前端格式：單選＝選項序號，複選＝排序後的字母組合
+function pickOf(id,s){
+  if(typeof s==='number')return s;
+  s=String(s==null?'':s).trim(); if(!s||s==='未作答')return -1;
+  const q=qById(id); return isMulti(q)?s:L.indexOf(s);
+}
+const sortLetters=s=>s.split('').sort().join('');
+const isPicked=(q,p,i)=>isMulti(q)?(typeof p==='string'&&p.includes(L[i])):p===i;
+const isRight=(q,i)=>isMulti(q)?q.a.includes(L[i]):i===q.a;
+const ansLetters=s=>s.split('').join('、');
+function ansText(q,p){
+  if(p==null||p===-1||p==='')return '未作答';
+  return isMulti(q)?ansLetters(p):L[p]+'　'+esc(q.o[p][0]);
+}
+function rightText(q){return isMulti(q)?ansLetters(q.a):L[q.a]+'　'+esc(q.o[q.a][0])}
 
 /* ===== 作答紀錄：本機更新＋排隊上傳 ===== */
 function rebuild(){
@@ -460,38 +540,19 @@ function kaAnalysis(){
 }
 
 /* ===== 題目區塊 ===== */
-const tagsHTML=q=>`${q.m?`<span class="tag multi">複選・選 ${q.n} 個</span>`:''}<span class="tag">${q.k?esc(q.k):'未分類'}</span><span class="tag">${esc(q.d)}階段</span>`;
-const memBtn=q=>`<button class="memb" data-mem="${esc(q.id)}" aria-pressed="${MEM.has(q.id)}">${ICON.star}${MEM.has(q.id)?'已存記憶題':'存成記憶題'}</button>`;
-async function toggleMem(id,btn){
-  const on=!MEM.has(id);
-  on?MEM.add(id):MEM.delete(id);
-  document.querySelectorAll(`[data-mem="${CSS.escape(id)}"]`).forEach(b=>{b.setAttribute('aria-pressed',on);b.innerHTML=ICON.star+(on?'已存記憶題':'存成記憶題')});
-  toast(on?'已加入記憶題':'已從記憶題移除');
-  try{const res=await api('mem',{id,on});if(!res.ok)throw 0}
-  catch(e){on?MEM.delete(id):MEM.add(id);
-    document.querySelectorAll(`[data-mem="${CSS.escape(id)}"]`).forEach(b=>{b.setAttribute('aria-pressed',!on);b.innerHTML=ICON.star+(!on?'已存記憶題':'存成記憶題')});
-    toast('無法儲存，請確認網路後再試');}
-}
-document.addEventListener('click',e=>{const b=e.target.closest('[data-mem]');if(!b)return;e.preventDefault();e.stopPropagation();toggleMem(b.dataset.mem,b)},true);
+const tagsHTML=q=>`<span class="tag">${q.k?esc(q.k):'未分類'}</span><span class="tag">${esc(q.d)}階段</span>`;
 function qHTML(q){return `<p class="q"><span class="zh">${nl(q.q[0])}</span>${q.q[1]?`<span class="en">${nl(q.q[1])}</span>`:''}</p>`}
-function optsHTML(q,pick,reveal,tmp){
-  const mask=q.m?(pick!=null&&pick>0?pick:(tmp||0)):0;
+function optsHTML(q,pick,reveal){
   return q.o.map((t,i)=>{
-    if(!t[0]&&!t[1])return '';
     let c='';
-    if(q.m){
-      const on=!!((mask>>i)&1), right=!!((q.a>>i)&1);
-      if(reveal){if(right)c='ok';else if(on)c='bad';}
-      else if(on)c='sel';
-    }
-    else if(reveal){if(i===q.a)c='ok';else if(i===pick)c='bad';}
-    else if(pick===i)c='sel';
+    if(reveal){if(isRight(q,i))c='ok';else if(isPicked(q,pick,i))c='bad';}
+    else if(isPicked(q,pick,i))c='sel';
     return `<button class="opt ${c}" data-pick="${i}" ${reveal?'disabled':''}><span class="k">${L[i]}</span><span><span class="zh">${nl(t[0])}</span>${t[1]?`<span class="en">${nl(t[1])}</span>`:''}</span></button>`;
   }).join('');
 }
 function explainHTML(q,pick,showVerdict){
   const ok=pick===q.a;
-  return `<div class="explain">${showVerdict?`<div class="v ${ok?'ok':'bad'}">${ok?'答對了':'正確答案是 '+(q.m?lettersOf(q.a):L[q.a])}</div>`:''}
+  return `<div class="explain">${showVerdict?`<div class="v ${ok?'ok':'bad'}">${ok?'答對了':'正確答案是 '+(isMulti(q)?ansLetters(q.a):L[q.a])}</div>`:''}
     ${q.c?`<p class="concept">${nl(q.c)}</p>`:''}
     <ul class="why">${q.x.map((t,i)=>t?`<li class="${isRight(q,i)?'right':''}"><b>${L[i]}</b><span>${nl(t)}</span></li>`:'').join('')}</ul></div>`;
 }
@@ -540,9 +601,10 @@ function home(){
   const rl=reviewList(), wn=rl.filter(q=>!H[q.id].last).length, un=rl.length-wn;
   const ms=store.get('cpmai.mockSel',null), mockN=CFG.mockCount;
   app.innerHTML=`<div class="wrap">
-  <header class="top ${QUOTE?'':'noq'}"><p class="hi">${esc(NAME)}，你好</p><h1 class="title">CPMAI 題庫練習</h1></header>
+  <header class="top ${QUOTE?'':'noq'}"><p class="hi">${esc(NAME)}，你好</p><h1 class="title">CPMAI 備考小助理</h1></header>
   ${QUOTE?`<section class="quote"><span class="pill">${ICON.sun}今日加油小語</span>${quoteHTML(QUOTE)}</section>`:''}
   <div id="assign"></div>
+  ${NOTES.length?notesRow():''}
   <section class="sec"><div class="sec-head"><h3>練習　答完立即看題解</h3>
     <div class="seg" role="group" aria-label="分類方式"><button data-view="ka" aria-pressed="${view==='ka'}">考綱領域</button><button data-view="dom" aria-pressed="${view==='dom'}">CPMAI 階段</button></div></div>
     <button class="allrow" data-p="all"><b>全部題目</b><span>共 ${Q.length} 題　›</span></button>
@@ -551,12 +613,11 @@ function home(){
   <section class="sec"><h3>檢測與複習</h3>
     <button class="row" data-act="mock"><span class="ic">${ICON.mock}</span><div class="main"><div class="name">模擬考試</div><div class="sub">小考 ${mockN} 題・全真模擬 ${FULL_N} 題 ${Math.round(FULL_N*SEC_PER_Q/60)} 分鐘</div></div><span class="chev">›</span></button>
     <button class="row" data-act="wrong"><span class="ic">${ICON.wrong}</span><div class="main"><div class="name">錯題複習</div><div class="sub">${rl.length?`答錯 ${wn} 題・答對但不確定 ${un} 題`:'目前沒有待複習的題目'}</div></div><span class="chev">›</span></button>
-    <button class="row" data-act="mem"><span class="ic">${ICON.star}</span><div class="main"><div class="name">記憶題</div><div class="sub">${memList().length?`已存 ${memList().length} 題，可重複複習`:'練習時按「存成記憶題」，就會收在這裡'}</div></div><span class="chev">›</span></button>
     <button class="row" data-act="ana"><span class="ic">${ICON.ana}</span><div class="main"><div class="name">學習分析</div><div class="sub">弱點分析・歷次小考紀錄</div></div><span class="chev">›</span></button>
   </section>
-  <div class="foot">題目僅供個人練習使用。
+  <div class="foot">題目為依考試大綱自編的練習題，僅供個人練習使用。
     <div class="sync" id="sync">${syncText()}</div>
-    <div class="links"><button class="linkbtn" id="size">字級：${store.get('cpmai.size','l')==='xl'?'特大':'大'}</button><button class="linkbtn" id="logout">登出</button></div></div></div>`;
+    <div class="links"><button class="linkbtn" id="size">字級：${store.get('cpmai.size','l')==='xl'?'特大':'大'}</button><button class="linkbtn" id="chpw">變更密碼</button><button class="linkbtn" id="logout">登出</button></div></div></div>`;
   app.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>{store.set('cpmai.view',b.dataset.view);const y=window.scrollY;home();window.scrollTo(0,y)});
   app.querySelectorAll('[data-p]').forEach(b=>b.onclick=()=>{const p=b.dataset.p;
     if(p==='all')practiceSheet('全部題目',Q);
@@ -565,8 +626,9 @@ function home(){
   app.querySelector('[data-act=mock]').onclick=mockSheet;
   app.querySelector('[data-act=wrong]').onclick=()=>wrongPage();
   app.querySelector('[data-act=ana]').onclick=()=>anaPage('weak');
-  app.querySelector('[data-act=mem]').onclick=()=>memPage();
+  const nb=app.querySelector('[data-act=notes]'); if(nb)nb.onclick=()=>notesPage();
   $('size').onclick=()=>{store.set('cpmai.size',store.get('cpmai.size','l')==='xl'?'l':'xl');applySize();home()};
+  $('chpw').onclick=()=>changePw(false,'');
   $('logout').onclick=()=>{if(!confirm('確定要登出嗎？'))return;const t=TOKEN;
     fetch(API_URL,{method:'POST',body:JSON.stringify({action:'logout',token:t})}).catch(()=>{});clearLocal();login();};
 }
@@ -672,35 +734,12 @@ function wrongPage(fk,ft){
   $('go').onclick=()=>start('wrong',shuffle(list),'錯題複習');
 }
 
-/* ===== 記憶題 ===== */
-const memList=()=>Q.filter(q=>MEM.has(q.id));
-function memPage(fk){
-  closeSheet(); window.scrollTo(0,0);
-  fk=fk||'all';
-  const ml=memList();
-  const kaList=KAS.filter(k=>ml.some(q=>q.k===k));
-  const list=ml.filter(q=>fk==='all'||q.k===fk);
-  app.innerHTML=`<div class="qbar"><div class="wrap"><div class="qbar-row"><button class="x" id="back" aria-label="回首頁">×</button><div class="label">記憶題</div></div></div></div>
-  <div class="wrap ana">${ml.length?`
-    <div class="lbl">考綱領域</div>
-    <div class="chips" data-g="k"><button class="chip" data-v="all" aria-pressed="${fk==='all'}">全部<small>（${ml.length}）</small></button>${kaList.map(k=>`<button class="chip" data-v="${k}" aria-pressed="${fk===k}">${short(k)}<small>（${ml.filter(q=>q.k===k).length}）</small></button>`).join('')}</div>
-    <p class="note">記憶題會一直保留，答對也不會移出。不想再複習的題目，在題目上再按一次「已存記憶題」就會移除。</p>
-    <button class="btn" id="go" style="width:100%;margin-top:18px" ${list.length?'':'disabled'}>開始複習（${list.length} 題）</button>
-    <h3 class="subh" style="margin-top:26px">題目清單　點開看題解</h3>
-    ${list.map(q=>`<details><summary><span class="t">${esc(q.q[0])}</span></summary><div class="d"><div class="tags">${tagsHTML(q)}${memBtn(q)}</div>${qHTML(q)}<p class="ans">正確答案：${q.m?lettersOf(q.a):L[q.a]+'　'+esc(q.o[q.a][0])}</p>${explainHTML(q,q.a,false)}</div></details>`).join('')}`
-  :'<div class="empty">還沒有記憶題。<br>練習時在題目右上角按「存成記憶題」，就會收在這裡。</div>'}</div>`;
-  $('back').onclick=()=>home();
-  if(!ml.length)return;
-  chipGroup(app,'k',v=>memPage(v));
-  $('go').onclick=()=>start('mem',shuffle(list),'記憶題');
-}
-
 /* ===== 作答 ===== */
 function start(mode,list,label,opt){
   closeSheet();
   if(!list.length)return toast('沒有可以練習的題目');
-  S={mode,list,label,i:0,picks:new Array(list.length).fill(null),flags:new Array(list.length).fill(false),
-     sids:new Array(list.length).fill(null),tmp:new Array(list.length).fill(0),scope:(opt&&opt.scope)||'',end:mode==='mock'?Date.now()+list.length*SEC_PER_Q*1000:null,view:'q'};
+  S={mode,list,label,i:0,picks:new Array(list.length).fill(null),temp:new Array(list.length).fill(''),flags:new Array(list.length).fill(false),
+     sids:new Array(list.length).fill(null),scope:(opt&&opt.scope)||'',end:mode==='mock'?Date.now()+list.length*SEC_PER_Q*1000:null,view:'q'};
   clearInterval(tick); if(S.end)tick=setInterval(updTimer,1000);
   renderQ();
 }
@@ -718,38 +757,41 @@ function qbarHTML(extra){
       ${mock&&S.view==='q'?'<button class="ovbtn" id="ovw">總覽</button>':''}</div>
       <div class="prog"><i style="width:${done/S.list.length*100}%"></i></div></div></div>`;
 }
-function renderQ(keep){
-  const y=window.scrollY; S.view='q';
+function renderQ(){
+  window.scrollTo(0,0); S.view='q';
   const q=S.list[S.i], pick=S.picks[S.i], mock=S.mode==='mock', last=S.i===S.list.length-1, reveal=!mock&&pick!=null;
-  const confirmMulti=q.m&&!mock&&pick==null;
+  const multi=isMulti(q), cur=pick!=null?pick:(multi?S.temp[S.i]:null);
   const showUnsure=reveal&&pick===q.a;
+  const confirmNeeded=multi&&!mock&&pick==null;
+  const ready=multi?(S.temp[S.i]||'').length===q.m:false;
   app.innerHTML=`${qbarHTML()}
-    <div class="wrap qbody"><div class="tags">${tagsHTML(q)}${mock?`<button class="flag" id="flag" aria-pressed="${S.flags[S.i]}">${ICON.flag}${S.flags[S.i]?'已標記':'標記'}</button>`:memBtn(q)}</div>${qHTML(q)}
-      <div class="opts" id="opts">${optsHTML(q,pick,reveal,S.tmp[S.i])}</div>
+    <div class="wrap qbody"><div class="tags">${tagsHTML(q)}${multi?`<span class="tag multi">複選題</span>`:''}${mock?`<button class="flag" id="flag" aria-pressed="${S.flags[S.i]}">${ICON.flag}${S.flags[S.i]?'已標記':'標記'}</button>`:''}</div>${qHTML(q)}
+      ${multi?`<p class="pickn"><span>請選出 <b>${q.m}</b> 個答案</span>${!reveal?`<span class="cnt">已選 ${(cur||'').length} / ${q.m}</span>`:''}</p>`:''}
+      <div class="opts" id="opts">${optsHTML(q,cur,reveal)}</div>
       ${showUnsure?`<button class="unsure" id="uns" aria-pressed="${S.flags[S.i]}"><span class="box"></span><span>這題我是猜的<small>勾選後，這題會列入錯題複習</small></span></button>`:''}
       ${reveal?explainHTML(q,pick,true):''}</div>
     <div class="dock"><div class="wrap">${mock&&S.i>0?'<button class="btn ghost" id="prev">上一題</button>':''}
-      ${confirmMulti?`<button class="btn" id="conf" ${bits(S.tmp[S.i])===q.n?'':'disabled'}>確認答案（已選 ${bits(S.tmp[S.i])} / ${q.n}）</button>`
+      ${confirmNeeded?`<button class="btn" id="confirm" ${ready?'':'disabled'}>確認答案</button>`
         :`<button class="btn" id="next" ${!mock&&pick==null?'disabled':''}>${last?(mock?'檢查並交卷':'看結果'):'下一題'}</button>`}</div></div>`;
-  window.scrollTo(0,keep?y:0);
   updTimer();
-  $('opts').onclick=e=>{const b=e.target.closest('[data-pick]');if(!b)return;const p=+b.dataset.pick;
-    if(q.m){
-      if(!mock&&pick!=null)return;
-      const cur=mock?(pick||0):S.tmp[S.i], nv=cur^(1<<p);
-      if(bits(nv)>q.n)return toast(`這題要選 ${q.n} 個，請先取消其中一個`);
-      if(mock)S.picks[S.i]=nv||null; else S.tmp[S.i]=nv;
-      return renderQ(true);
+  const commit=p=>{S.picks[S.i]=p;S.sids[S.i]=send(S.mode,[{id:q.id,pick:p,unsure:false}],{hold:true});
+    renderQ();const ex=document.querySelector('.unsure')||document.querySelector('.explain');if(ex)ex.scrollIntoView({behavior:'smooth',block:'nearest'});};
+  $('opts').onclick=e=>{const b=e.target.closest('[data-pick]');if(!b||b.disabled)return;const i=+b.dataset.pick;
+    if(multi){
+      if(reveal)return;
+      let s=S.temp[S.i]||''; const c=L[i];
+      if(s.includes(c))s=s.replace(c,'');
+      else{if(s.length>=q.m){toast(`這題只能選 ${q.m} 個答案`);return;} s=sortLetters(s+c);}
+      S.temp[S.i]=s;
+      if(mock)S.picks[S.i]=s.length===q.m?s:null;
+      renderQ(); return;
     }
-    if(!mock){if(pick!=null)return;S.picks[S.i]=p;S.sids[S.i]=send(S.mode,[{id:q.id,pick:p,unsure:false}],{hold:true});
-      renderQ();const ex=document.querySelector('.unsure')||document.querySelector('.explain');if(ex)ex.scrollIntoView({behavior:'smooth',block:'nearest'});}
-    else{S.picks[S.i]=p;renderQ(true);}};
-  if($('flag'))$('flag').onclick=()=>{S.flags[S.i]=!S.flags[S.i];renderQ(true)};
+    if(!mock){if(pick!=null)return;commit(i);}
+    else{S.picks[S.i]=i;renderQ();}};
+  if($('confirm'))$('confirm').onclick=()=>{const s=S.temp[S.i]||'';if(s.length===q.m)commit(s);};
+  if($('flag'))$('flag').onclick=()=>{S.flags[S.i]=!S.flags[S.i];renderQ()};
   if($('uns'))$('uns').onclick=()=>{S.flags[S.i]=!S.flags[S.i];setUnsure(S.sids[S.i],S.flags[S.i]);
     const b=$('uns');b.setAttribute('aria-pressed',S.flags[S.i]);};
-  if($('conf'))$('conf').onclick=()=>{
-    S.picks[S.i]=S.tmp[S.i];S.sids[S.i]=send(S.mode,[{id:q.id,pick:S.tmp[S.i],unsure:false}],{hold:true});
-    renderQ(true);const ex=document.querySelector('.unsure')||document.querySelector('.explain');if(ex)ex.scrollIntoView({behavior:'smooth',block:'nearest'});};
   if($('next'))$('next').onclick=()=>{
     if(!mock)release([S.sids[S.i]]);
     if(last){mock?overview():finish();}
@@ -806,7 +848,7 @@ function breakdown(items){
 }
 function reviewHTML(items){
   return items.map(x=>{const r=x.p===x.q.a;return `<details><summary><span class="mk ${r?'ok':'bad'}">${r?'○':'×'}</span><span class="t">${esc(x.q.q[0])}</span>${x.u?'<span class="fl">標記</span>':''}</summary>
-    <div class="d"><div class="tags">${tagsHTML(x.q)}${memBtn(x.q)}</div>${qHTML(x.q)}<p class="ans">你的答案：${ansText(x.q,x.p,true)}</p>${r?'':`<p class="ans">正確答案：${ansText(x.q,x.q.a,true)}</p>`}${explainHTML(x.q,x.p,false)}</div></details>`}).join('');
+    <div class="d"><div class="tags">${tagsHTML(x.q)}</div>${qHTML(x.q)}<p class="ans">你的答案：${ansText(x.q,x.p)}</p>${r?'':`<p class="ans">正確答案：${rightText(x.q)}</p>`}${explainHTML(x.q,x.p,false)}</div></details>`}).join('');
 }
 function resultPage(o){
   window.scrollTo(0,0);
@@ -824,6 +866,81 @@ function resultPage(o){
    <div style="margin-top:24px"><button class="btn" id="back" style="width:100%">${o.back?'返回':'回首頁'}</button></div></div>`;
   const go=o.back||home;
   $('quit').onclick=()=>go(); $('back').onclick=()=>go();
+}
+
+/* ===== 學習講義 ===== */
+const readKey=()=>'cpmai.read.'+String(store.get('cpmai.acc','')).toLowerCase();
+const readSet=()=>store.get(readKey(),[]);
+function setRead(ch,on){const r=readSet().filter(x=>x!==ch);if(on)r.push(ch);store.set(readKey(),r)}
+const isRead=ch=>readSet().includes(ch);
+function notesRow(){
+  const n=NOTES.filter(x=>isRead(x.ch)).length, li=Math.max(0,NOTES.findIndex(x=>x.ch===store.get('cpmai.lastNote',''))), nx=NOTES.slice(li).concat(NOTES.slice(0,li)).find(x=>!isRead(x.ch));
+  return `<section class="sec"><h3>先讀觀念，再做題目</h3>
+    <button class="row" data-act="notes"><span class="ic">${ICON.book}</span><div class="main"><div class="name">學習講義</div>
+    <div class="sub">${n?`已讀 ${n} / ${NOTES.length} 章`:`共 ${NOTES.length} 章`}${nx?`・下一章：${esc(nx.ch)}　${esc(nx.t)}`:'・全部讀完了'}</div></div><span class="chev">›</span></button></section>`;
+}
+function scopeOf(note){
+  const parts=String(note.scope||'').split(/[、,，]/).map(x=>x.trim()).filter(Boolean);
+  if(!parts.length)return null;
+  if(parts.some(p=>p==='錯題複習'))return {wrong:true,label:'錯題複習',list:reviewList()};
+  if(parts.some(p=>p==='全部'))return {label:'全部題目',list:Q};
+  const ds=[],ks=[];
+  parts.forEach(p=>{const m=p.match(/^(階段|領域)\s*[:：]\s*(.+)$/);if(!m)return;(m[1]==='階段'?ds:ks).push(m[2].trim())});
+  const list=Q.filter(q=>ds.includes(q.d)||ks.includes(q.k));
+  return {label:ds.concat(ks).join('、')||note.t,list};
+}
+function inlineMD(s){return esc(s).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')}
+function mdHTML(src){
+  const lines=String(src).replace(/\r/g,'').split('\n'); let out='',i=0;
+  const cells=l=>l.trim().replace(/^\||\|$/g,'').split('|').map(x=>x.trim());
+  while(i<lines.length){
+    const l=lines[i], t=l.trim();
+    if(!t){i++;continue}
+    if(/^#{1,3}\s/.test(t)){out+=`<h2>${inlineMD(t.replace(/^#+\s*/,''))}</h2>`;i++;continue}
+    if(t.startsWith('|')){
+      const rows=[];while(i<lines.length&&lines[i].trim().startsWith('|')){rows.push(lines[i]);i++}
+      const body=rows.filter(r=>!/^\|?\s*:?-{2,}/.test(r.trim().replace(/^\|/,'')));
+      const [h,...rest]=body;
+      const hd=cells(h);
+      out+=`<div class="tbl"><table><thead><tr>${hd.map(c=>`<th>${inlineMD(c)}</th>`).join('')}</tr></thead><tbody>${rest.map(r=>`<tr>${cells(r).map((c,j)=>`<td data-l="${esc(hd[j]||'')}">${inlineMD(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+      continue;
+    }
+    if(/^[-•]\s/.test(t)){const it=[];while(i<lines.length&&/^[-•]\s/.test(lines[i].trim())){it.push(lines[i].trim().replace(/^[-•]\s+/,''));i++}
+      out+=`<ul>${it.map(x=>`<li>${inlineMD(x)}</li>`).join('')}</ul>`;continue}
+    if(/^\d+[.、]\s*/.test(t)){const it=[];while(i<lines.length&&/^\d+[.、]\s*/.test(lines[i].trim())){it.push(lines[i].trim().replace(/^\d+[.、]\s*/,''));i++}
+      out+=`<ol>${it.map(x=>`<li>${inlineMD(x)}</li>`).join('')}</ol>`;continue}
+    if(t.startsWith('>')){const it=[];while(i<lines.length&&lines[i].trim().startsWith('>')){it.push(lines[i].trim().replace(/^>\s?/,''));i++}
+      out+=`<div class="tip">${it.map(inlineMD).join('<br>')}</div>`;continue}
+    out+=`<p>${inlineMD(t)}</p>`;i++;
+  }
+  return out;
+}
+function notesPage(){
+  closeSheet(); window.scrollTo(0,0);
+  const n=NOTES.filter(x=>isRead(x.ch)).length, last=store.get('cpmai.lastNote','');
+  app.innerHTML=`<div class="qbar"><div class="wrap"><div class="qbar-row"><button class="x" id="back" aria-label="回首頁">×</button><div class="label">學習講義</div><div class="meta">已讀 ${n} / ${NOTES.length}</div></div></div></div>
+    <div class="wrap nlist"><div class="nprog"><b>${n===NOTES.length?'全部讀完了，考前再看一次速查表就好！':n?`讀到一半了，繼續加油`:'從導讀開始，一天讀一兩章就好'}</b>
+      <span class="bar"><i style="width:${pc(n,NOTES.length)||0}%"></i></span></div>
+    ${NOTES.map((x,i)=>`<button class="nitem ${isRead(x.ch)?'read':''} ${x.ch===last?'cur':''}" data-n="${i}"><span class="nch">${esc(x.ch)}</span><span class="nt">${esc(x.t)}${x.ch===last?'<small>上次讀到這裡</small>':''}</span><span class="ck" aria-label="${isRead(x.ch)?'已讀':'未讀'}">${isRead(x.ch)?'✓':''}</span></button>`).join('')}</div>`;
+  $('back').onclick=()=>home();
+  app.querySelectorAll('[data-n]').forEach(b=>b.onclick=()=>noteView(+b.dataset.n));
+}
+function noteView(i){
+  closeSheet(); window.scrollTo(0,0);
+  const x=NOTES[i]; if(!x)return notesPage();
+  store.set('cpmai.lastNote',x.ch);
+  const sc=scopeOf(x), cnt=sc?sc.list.length:0;
+  const pbtn=!sc?'':sc.wrong?`<button class="btn" id="prac" ${cnt?'':'disabled'}>${cnt?`錯題複習 ${cnt} 題`:'目前沒有錯題'}</button>`
+    :`<button class="btn" id="prac" ${cnt?'':'disabled'}>${cnt?`練習本章 ${cnt} 題`:'這一章的題目準備中'}</button>`;
+  app.innerHTML=`<div class="qbar"><div class="wrap"><div class="qbar-row"><button class="x" id="back" aria-label="回講義目錄">×</button><div class="label">學習講義</div><div class="meta">${i+1} / ${NOTES.length}</div></div></div></div>
+    <article class="wrap nbody"><p class="nh">${esc(x.ch)}</p><h1>${esc(x.t)}</h1>${mdHTML(x.body)}
+      <div class="nend"><button class="readbtn" id="rd" aria-pressed="${isRead(x.ch)}">${isRead(x.ch)?'✓ 這一章已讀完':'讀完了，標示為已讀'}</button></div></article>
+    <div class="dock"><div class="wrap"><button class="btn ghost nav" id="prev" ${i>0?'':'disabled'} aria-label="上一章">‹</button>${pbtn||'<span style="flex:1"></span>'}<button class="btn ghost nav" id="next" aria-label="${i<NOTES.length-1?'下一章':'回目錄'}">${i<NOTES.length-1?'›':'目錄'}</button></div></div>`;
+  $('back').onclick=()=>notesPage();
+  $('rd').onclick=()=>{const on=!isRead(x.ch);setRead(x.ch,on);const b=$('rd');b.setAttribute('aria-pressed',on);b.textContent=on?'✓ 這一章已讀完':'讀完了，標示為已讀'};
+  $('prev').onclick=()=>noteView(i-1);
+  $('next').onclick=()=>{setRead(x.ch,true);i<NOTES.length-1?noteView(i+1):notesPage()};
+  const p=$('prac'); if(p&&cnt)p.onclick=()=>{setRead(x.ch,true);sc.wrong?wrongPage():practiceSheet(x.ch+'　'+x.t,sc.list)};
 }
 
 /* ===== 學習分析 ===== */
